@@ -52,3 +52,9 @@ pip install requests
   <li> Once the HTML is fetched using the requests as an string, we need to parse it.
   <li> For parsing, we will use python's BeautifulSoup module which will create a tree like structure for our DOM.
 </ol>
+
+### Step 3 : HTML tree traversal 
+<ol> 
+  <li> Once the HTML is fetched and parsed, the next step is to manipulate the tree using BeautifulSoup's functions to get our job done.
+  <li> This tutorial will teach you how to get started and traverse the tree.
+</ol>
