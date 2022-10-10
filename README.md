@@ -38,3 +38,17 @@ pip install requests
 
     
 </ol>
+
+
+### Step 1 : Fetching the HTML content
+<ol>
+  <li> In order to work with the HTML, we will have to get the HTML as a string.
+  <li> We will leverage the power of python requests module to get this done!
+  <li> The next step then will be to parse the HTML content and give it a tree like structure so that it can be traversed.
+</ol>
+
+### Step 2 : Parse the HTML
+<ol> 
+  <li> Once the HTML is fetched using the requests as an string, we need to parse it.
+  <li> For parsing, we will use python's BeautifulSoup module which will create a tree like structure for our DOM.
+</ol>
