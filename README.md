@@ -8,3 +8,11 @@ to perform web scraping there are few modules available in the market which can 
 * BeautifulSoup
 * Selenium
 * Scrapy
+
+## Steps to be followed while performing Web Scraping : 
+
+Step 0 : Setting up the Environment
+Step 1 : Get the HTML
+Step 2 : Parse the HTML
+Step 3 : HTML tree traversal
+Step 4 : Collection of Data, Cleaning the data and using the data
