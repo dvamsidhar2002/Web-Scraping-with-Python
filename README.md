@@ -16,3 +16,25 @@ to perform web scraping there are few modules available in the market which can 
 * Step 2 : Parse the HTML
 * Step 3 : HTML tree traversal
 * Step 4 : Collection of Data, Cleaning the data and using the data
+
+## Details to be observed : 
+
+### Step 0 : Setting up the Environment 
+<ol>
+  <li> In order to use the power of python to scrap websites, we can use existing libraries to get the job done.
+  <li> We will install the following libraries using pip :
+
+``` 
+pip install requests
+```
+
+```
+pip install html5lib
+``` 
+
+``` 
+pip install requests
+```
+
+    
+</ol>
