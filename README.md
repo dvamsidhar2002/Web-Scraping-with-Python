@@ -58,3 +58,22 @@ pip install beautifulsoup4
   <li> Once the HTML is fetched and parsed, the next step is to manipulate the tree using BeautifulSoup's functions to get our job done.
   <li> This tutorial will teach you how to get started and traverse the tree.
 </ol>
+
+### Lines of code to extract the html source code and title of a website (https://kukufm.com)
+
+```
+import requests
+from bs4 import BeautifulSoup
+url = "https://kukufm.com"
+
+r = requests.get(url)
+htmlcontent = r.content
+print(htmlcontent)
+print("\n\n")
+soup = BeautifulSoup(htmlcontent, 'html.parser')
+print(soup.prettify)
+print("\n\n")
+title = soup.title
+print(title)
+print(type(title))
+```
