@@ -33,7 +33,7 @@ pip install html5lib
 ``` 
 
 ``` 
-pip install requests
+pip install beautifulsoup4
 ```
 
     
